@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #BCE3E0;
   height: 100%;
   width: 100%;
 }
@@ -104,44 +104,52 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 2em;
   height: 100%;
-  color: #fff;
+  
 }
 
 header,
 footer {
-  background-color: #222;
+ 
   height: 80px;
   width: 100%;
+  font-family: 'Anton';
+  font-size: 75px;
+   color: #fff;
+  padding-top: 40px;
+  
 }
 
 main {
-  background-color: #ccc;
+  color: #fff ;
   height: 250px;
   width: 100%;
+  font-family: 'Kulim Park'
 }
 
 header,
 footer,
 main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
 }
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-flow: row wrap;
+  
 }
 
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color:#E3C8E0;
   width: 30%;
   height: 200px;
   display: flex;
